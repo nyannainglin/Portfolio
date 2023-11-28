@@ -1,0 +1,60 @@
+#portfolio-page h6 {
+    color: #08ab67;
+}
+#portfolio-page .card {
+    height: 350px;
+    /* background-color: red; */
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#portfolio-page .card .img-box {
+    height: 60%;
+    border-radius: inherit;
+    margin: 20px  20px 0px 20px;
+    background: rgb(5,72,44);
+    background: linear-gradient(135deg, rgba(5,72,44,1) 0%, rgba(215,215,215,1) 100%);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#portfolio-page .box-one,
+#portfolio-page .box-two
+ {
+    width: 90px;
+    height: 75%;
+    border-radius: 16px;
+    outline: 3px solid #646564;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+#portfolio-page .box-one {
+    transform: rotate(-340deg);
+    background: url(../../img/Graphic\ Design\ &\ IT\ Services\ Center\ \(1\).png) no-repeat;
+    background-size: cover;
+}
+#portfolio-page .box-two {
+    transform: rotate(-340deg);
+    background: url(../../img/Graphic\ Design\ &\ IT\ Services\ Center\ \(2\).png) no-repeat;
+    background-size: cover;
+}
+#portfolio-page .card-content {
+    margin: 20px  20px 0px 20px;
+}
+
+#portfolio-page .tw-one {
+    background: url(../../img/card-3-1.png) no-repeat;
+    background-size: cover;
+}
+#portfolio-page .tw-two {
+    background: url(../../img/card-3-2.png) no-repeat;
+    background-size: cover;
+}
+
+#portfolio-page .thre-one {
+    background: url(../../img/card-4-2.png) no-repeat;
+    background-size: cover;
+}
+#portfolio-page .thre-two {
+    background: url(../../img/card4-2.png) no-repeat;
+    background-size: cover;
+}

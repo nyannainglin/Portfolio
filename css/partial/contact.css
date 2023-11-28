@@ -1,0 +1,25 @@
+#contact-form {
+    height: 680px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #b5b7b7;
+    box-shadow: 0px 3px 3px 0px #8e8e8e;
+
+    position: relative;
+}
+#contact-form-btn{
+    color: #08ab67;
+    width: 120px;
+    height: 40px;
+    border-radius: 16px;
+    border: none;
+    transition: .5s ease-in-out;
+
+    position: absolute;
+    left: 30%;
+
+}
+#contact-form-btn:hover{
+    color: #05482C;
+    background-color: #08ab67;
+}

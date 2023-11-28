@@ -1,0 +1,21 @@
+#home-page h5,
+#home-page h3
+ {
+    color: #08ab67;
+}
+#home-page h2
+ {
+    color: #05482c;
+}
+#home-page .h-btn {
+    color: #08ab67;
+    padding: 18px 24px;
+    border: none;
+    font-weight: 800;
+    border-radius: 18px;
+    transition: .5s ease-in-out;
+}
+#home-page .h-btn:hover{
+    color: #05482c;
+    background: #08ab67;
+}

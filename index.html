@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- header start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h2 id="logo">Kwie <span>Nyan</span></h2>
+            </a>
+
+            <!-- toggler icon -->
+            <button class="navbar-toggle collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse"  data-bs-target="#navbar-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar "></span>
+            </button>
+
+            <!-- nav -->
+            <div class="collapse navbar-collapse" id="navbar-content">
+                <ul class="navbar-nav ms-auto d-flex align-items-center d-md-flex" id="nav">
+                    <li class="nav-item">
+                        <a href="#home-page" class="nav-link active" id="active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-page" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio-page" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service-page" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skill-page" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-page" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header end -->
+
+    <!-- home page -->
+    <section class="container" id="home-page">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="mt-5">
+                    <h5 class="fst-italic fw-light mb-4">Hello I'm</h5>
+                    <h2 class="fw-bolder">Nyan Naing Lin</h2>
+                    <h3>Web Front End Developer</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum excepturi laboriosam consequuntur commodi neque fugiat, 
+                    </p>
+                </div>
+                <div class="mt-4">
+                    <button class="h-btn">Download Resume >></button>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+                <img src="img/hom.jpg" alt="" width="100%">
+            </div>
+        </div>
+    </section>
+    <!-- home page end -->
+
+    <!-- About page  -->
+    <section class="container" id="about-page">
+        <h2 class="text-start mb-3">About Me</h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, iste, expedita, impedit incidunt possimus quis facere asperiores accusantium esse deserunt necessitatibus ipsam quod recusandae modi doloribus doloremque in rem adipisci.
+                </p>
+
+                <div>
+                    <span>Date of Birth :</span>
+                    <p class="fw-bold ms-3">12 July 2000</p>
+                </div>
+                <div>
+                    <span>Interest :</span>
+                    <p class="fw-bold ms-3">
+                        Creating, Travelling, Football
+                    </p>
+                </div>
+                <div>
+                    <span>Current Location :</span>
+                    <p class="fw-bold ms-3">25 Ward, South Dagon, Yangon</p>
+                </div>
+                <div>
+                    <span>Find Me In this Social Media :</span>
+                    <p class="fw-bold mt-2 ms-3" id="social-icon">
+                        <i class="fa-brands fa-facebook-f me-2"></i>
+                        <i class="fa-brands fa-linkedin-in me-2"></i>
+                        <i class="fa-brands fa-instagram me-3"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About page end -->
+
+    <!-- Portfolio page start -->
+
+    <section class="container" id="portfolio-page">
+        <h6 class="text-center">VISIT MY PORTFOLIO & KEEP YOUR FEEDBACK</h6>
+        <h2 class="text-center mb-3">My Portfolio</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                <div class="card">
+                    <div class="img-box">
+                        <div class="box-one"></div>
+                        <div class="box-two"></div>
+                    </div>
+                    <div class="card-content">
+                        <h5>Pixels (Design & Copier) Services</h5>
+                        <span>(Develop by Bootstrap Framework)</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end card1 -->
+
+            <div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+                <div class="card">
+                    <div class="img-box">
+                        <div class="box-one tw-one"></div>
+                        <div class="box-two tw-two"></div>
+                    </div>
+                    <div class="card-content">
+                        <h5>Bootstrap Job Training Website</h5>
+                        <span>(Develop by Bootstrap Framework)</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end card2 -->
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="img-box">
+                        <div class="box-one thre-one"></div>
+                        <div class="box-two thre-two"></div>
+                    </div>
+                    <div class="card-content">
+                        <h5>Yoga World Website Design</h5>
+                        <span>(develop by HTML/CSS)</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end card3 -->
+        </div>
+    </section>
+
+    <!-- Portfolio page end -->
+
+    <!-- Services page start -->
+    <section class="container" id="service-page">
+        <h2 class="text-center mb-3">My Services</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <div class="card">
+                    <h4 class="text-center mb-3">Web UI/UX Design</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, nemo tempore. Perferendis dolor similique, labore magnam unde rerum officia? Tempora pariatur quas vero nostrum porro distinctio blanditiis? Ipsa, nemo laborum?
+                    </p>
+                    <button class="service-btn">Read more >></button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <h4 class="text-center mb-3">Web Front End Development</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quos, eaque itaque autem officia nam. Harum dolore dolorum assumenda aliquam ipsa eius. Officia sit ut suscipit nihil! A, perspiciatis reprehenderit!
+                    </p>
+                    <button class="service-btn">Read more >></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services page end -->
+
+    <!-- skills page start -->
+    <section class="container" id="skill-page">
+        <h2 class="text-center mb-3">My Skills</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3 mb-md-0">
+                <h4>Design Tools</h4>
+                <div class="mt-4">
+                    <div class="progress mb-4" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-75" id="progress-bar">Fegma</div>
+                    </div>
+                    <div class="progress mb-4" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-50" id="progress-bar">Photoshop</div>
+                    </div>
+                    <div class="progress" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-75" id="progress-bar">Adobe Illustrator</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h4>Developement Skills</h4>
+                <div class="mt-4">
+                    <div class="progress mb-4" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-100" id="progress-bar">HTML</div>
+                    </div>
+                    <div class="progress mb-4" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-75" id="progress-bar">CSS</div>
+                    </div>
+                    <div class="progress mb-4" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-50" id="progress-bar">BOOTSTRAP</div>
+                    </div>
+                    <div class="progress mb-4" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-75" id="progress-bar">SASS</div>
+                    </div>
+                    <div class="progress" style="height: 20px;" id="progress">
+                        <div class="progress-bar progress-bar-animated  progress-bar-striped w-50" id="progress-bar">JAVASCRIPT</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills page end -->
+
+    <!-- contact start -->
+    <section class="container" id="contact-page">
+        <h2 class="text-center mb-3">Contact Me</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <h5 class=" mb-3">Let's Work Together</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, labore. Quaerat dolorem nisi totam dicta, rem labore dolorum? Necessitatibus fugiat totam aliquam dicta debitis ratione eos alias, ullam quidem voluptatibus.
+                </p>
+                <div>
+                    <p><i class="fas fa-phone me-3"></i>Phone: <span>+59-9446633328 ,+59-445366779</span></p>
+                    <p><i class="fas fa-voicemail me-3"></i>Email: <span>kwienyan@gmail.com</span></p>
+                    <p><i class="fas fa-contact-book me-3"></i>Location: <span>South Dagon , Yangon ,Myanmar</span></p>
+                </div>
+                <div>
+                    <div class="d-flex">
+                        <h6 class="fw-bold"><i class="fab fa-facebook-f me-3"></i>Facebook</h6>
+                        <p class="ms-3">www.facebook.com/kwienyan</p>
+                    </div>
+                    <div class="d-flex">
+                        <h6 class="fw-bold"><i class="fab fa-linkedin-in me-3"></i>Linkedin</h6>
+                        <p class="ms-3">www.linkedin.com/kwienyan</p>
+                    </div>
+                    <div class="d-flex">
+                        <h6 class="fw-bold"><i class="fab fa-instagram me-3"></i>Instagram</h6>
+                        <p class="ms-3">www.instagram.com/kwienyan</p>
+                    </div>
+                    <div class="d-flex">
+                        <h6 class="fw-bold"><i class="fab fa-twitter me-3"></i>Twitter</h6>
+                        <p class="ms-3">www.twitter.com/kwienyan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="#" id="contact-form" class="ms-3">
+                    <label for="name">Enter your name</label><br>
+                    <input type="text" id="name" class="form-control"><br>
+
+                    <label for="email">Enter your email</label><br>
+                    <input type="text" id="email" class="form-control"><br>
+
+                    <label for="gander">Gander</label><br>
+                    <select name="gander" id="" class="form-control">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br>
+
+                    <label for="message">Message</label><br>
+                    <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+                    <br>
+                    
+                    <input type="checkbox" id="check">
+                    <label for="check" class="text-success ms-2">Are you sure?</label><br>
+
+                    <button id="contact-form-btn" class="mt-4">Send</button>
+                </form> 
+            </div>
+        </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer class="mt-3">
+        <div class="py-3 text-center border-top">
+            @2023 All Rights Reversed by <i>Kiwe Nyan</i>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- bootstrap JS cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
