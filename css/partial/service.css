@@ -1,17 +1,18 @@
 #service-page .card {
+    color: #a5a5a5;
     padding: 40px;
     border-radius: 20px;
+    border: 1px solid #14FFEC;
+    background: #212121;
 }
 #service-page .service-btn {
     border: none;
     width: 140px;
-    padding: 8px 18px;
-    color: #08ab67;
+    color: #0D7377;
     border-radius: 8px;
     transition: .5s ease-in-out;
 }
 #service-page .service-btn:hover {
-    color: #05482c;
-    background-color: #08ab67;
+    color: #14FFEC;
 }
 
