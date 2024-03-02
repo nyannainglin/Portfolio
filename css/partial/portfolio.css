@@ -23,7 +23,7 @@
     height: 150px;
     border-radius: 16px;
     outline: 3px solid #14FFEC;
-    box-shadow: 2px 2px 4px #14FFEC;
+    box-shadow: 4px 2px 4px #14FFEC;
 }
 #portfolio-page .box-one {
     transform: rotate(-340deg);
